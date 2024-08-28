@@ -26,3 +26,4 @@ go.work.sum
 
 .docker_build/
 bin/
+cover.*
