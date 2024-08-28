@@ -6,6 +6,8 @@ on:
     branches:
       - main
 
+name: Test
+
 jobs:
   test:
     name: Test
