@@ -3,7 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/gofiber/fiber/v2"
+	"tweety/internal/routes"
+
 	"github.com/gofiber/fiber/v2/log"
 )
 
@@ -14,11 +15,7 @@ func main() {
 		log.Fatal("$PORT must be set")
 	}
 
-	app := fiber.New()
-
-	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("Hello, World!")
-	})
+	app := routes.Init()
 
 	app.Listen(":" + port)
 }

@@ -1,0 +1,16 @@
+profile: cover.out
+
+threshold:
+  file: 70
+
+  package: 80
+
+  total: 95
+
+# override:
+#   - threshold: 100
+#     path: ^pkg/lib/foo$
+
+exclude:
+  paths:
+    - ^main
