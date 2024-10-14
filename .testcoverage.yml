@@ -11,6 +11,6 @@ threshold:
 #   - threshold: 100
 #     path: ^pkg/lib/foo$
 
-exclude:
-  paths:
-    - ^main
+# exclude:
+#   paths:
+#     - ^main
