@@ -1,6 +1,5 @@
 # Quill
 
-Quill is a twitter clone built with Golang for a tutorial series on [Youtube](https://www.youtube.com/channel/UCElDYD2OmPD350A_Xs6DsUg).
 
 ![coverage](https://raw.githubusercontent.com/mbm-c/quill/badges/.badges/main/coverage.svg)
 
