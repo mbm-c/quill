@@ -5,3 +5,7 @@ name = "go"
 
   [analyzers.meta]
   import_root = "github.com/mbm-c/quill"
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true

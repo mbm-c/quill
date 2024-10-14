@@ -21,6 +21,12 @@ jobs:
 
       - name: generate test coverage
         run: go test ./... -coverprofile=./cover.out -covermode=atomic -coverpkg=./...
+      - name: install deepsource
+        run: curl https://deepsource.io/cli | sh
+      - name: run deepsource
+        env:
+          DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+        run: ./bin/deepsource report --analyzer test-coverage --key go --value-file ./cover.out
       - name: check test coverage
         uses: vladopajic/go-test-coverage@v2
         with:
