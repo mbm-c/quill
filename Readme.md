@@ -1,7 +1,9 @@
 # Quill
 
 
-![coverage](https://raw.githubusercontent.com/mbm-c/quill/badges/.badges/main/coverage.svg)
+[![DeepSource](https://app.deepsource.com/gh/mbm-c/quill.svg/?label=code+coverage&show_trend=true&token=Sk6fYyebzXt4fNgLWUXhTnOe)](https://app.deepsource.com/gh/mbm-c/quill/)
+[![DeepSource](https://app.deepsource.com/gh/mbm-c/quill.svg/?label=active+issues&show_trend=true&token=Sk6fYyebzXt4fNgLWUXhTnOe)](https://app.deepsource.com/gh/mbm-c/quill/)
+[![DeepSource](https://app.deepsource.com/gh/mbm-c/quill.svg/?label=resolved+issues&show_trend=true&token=Sk6fYyebzXt4fNgLWUXhTnOe)](https://app.deepsource.com/gh/mbm-c/quill/)
 
 ## Installation
 

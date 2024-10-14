@@ -2,8 +2,8 @@ package routes_test
 
 import (
 	"net/http/httptest"
+	"quill/internal/routes"
 	"testing"
-	"tweety/internal/routes"
 
 	"github.com/stretchr/testify/assert"
 )
