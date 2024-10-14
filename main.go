@@ -17,5 +17,8 @@ func main() {
 
 	app := routes.Init()
 
-	app.Listen(":" + port)
+	err := app.Listen(":" + port)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
