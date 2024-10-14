@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	"tweety/internal/routes"
+	"quill/internal/routes"
 
 	"github.com/gofiber/fiber/v2/log"
 )

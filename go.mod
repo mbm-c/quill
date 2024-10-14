@@ -1,4 +1,4 @@
-module tweety
+module quill
 
 go 1.22.0
 
